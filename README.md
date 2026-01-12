@@ -11,7 +11,10 @@
 
 [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/001ProMax/TestFlight-Monitor)
 
-> 部署完成后，请在 Cloudflare Dashboard 中配置环境变量：
+> 部署完成后，请在 `Settings` -> `Variables and Secrets` 中配置环境变量：
 >
-> - **Cron Triggers**（定时执行频率）
-> - 必要的 **环境变量**（如 App ID、通知配置等）
+> - `Bark_IDs=["your_bark_id"]`
+>
+> - `TF_IDs=["your_testflight_id"]`
+>
+> - `interval=5`
