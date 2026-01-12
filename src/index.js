@@ -21,9 +21,6 @@ async function run(env) {
           Promise.race([data(id), sleep(10000)]),
           sleep(interval * 1000),
         ]);
-
-        console.log(status, title);
-
         if (status) {
           await notify(env, title, icon);
         }
