@@ -18,7 +18,7 @@ async function run(env) {
     JSON.parse(env.TF_IDs).map(async (id) => {
       for (let i = 0; i < 60 / interval; i++) {
         const [{ title, status, icon }] = await Promise.all([
-          Promise.race([data(id), sleep(interval * 1000)]),
+          Promise.race([data(id), sleep(10000)]),
           sleep(interval * 1000),
         ]);
 
