@@ -63,6 +63,8 @@ async function notify(env, title, icon) {
           subtitle: title,
           body: "已释放名额",
           icon,
+          url: "https://testflight.apple.com/join/" + id,
+          group: "TestFlight Monitor",
         }),
       });
     })
