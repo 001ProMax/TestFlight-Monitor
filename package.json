@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "dev": "bunx wrangler dev --test-scheduled"
+  },
+  "dependencies": {
+    "linkedom": "^0.18.12"
+  }
+}

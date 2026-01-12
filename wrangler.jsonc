@@ -1,0 +1,7 @@
+{
+  "name": "testflight-monitor",
+  "main": "src/index.js",
+  "triggers": {
+    "crons": ["*/1 * * * *"]
+  }
+}
